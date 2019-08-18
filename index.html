@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div id="introScreen">
+            <div class="home">
+                <h1>Polar Quiz App</h1>
+                <button type="button"  onclick="startGame()" id="startButton">Start</button>
+            </div>
+        </div>
+        <div id="quizHeader" class="hide">
+            <div class="questionScore">
+                <h1 class="questionNum">Question: <span class="outOf"> 1</span>/10 </h1>
+
+                <h1 class="scoreNum">Score: <span class="score"> 0</span> </h1>
+            </div>
+        </div>
+        <div id="quizContainer" class="hide">
+            <div class="questionContainer">
+            </div>
+        </div>
+
+        <div id="resultsScreen" class="hide">
+            <div class="endScreen">
+            </div>
+
+        </div>
+    </div>
+
+        <script src="quiz.js"></script>
+</body>
+
+</html>
