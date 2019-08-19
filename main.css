@@ -11,13 +11,11 @@ body{
 
 .container{
     display:flex;
-    
     text-align:center;
     Align-items: center; 
     flex-direction:column;
     margin-top:10%;
     
-
 }
 
 .home{
@@ -126,7 +124,7 @@ input[type='radio']{
 label{
         font-size:27px;
 }
-    
+
 h1{
         font-size:35px;
 }
